@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" href="assets/milligram.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>AIRES</title>
+    </head>
+    <body>
+
+        <nav>
+            <a href="index.html"><h1> <i>&larr;</i>  Edit contact</h1></a>
+        </nav>
+
+        <main>
+            <h4 style="width:100%;padding:3px;margin:30px;border-bottom: 1px solid grey;">Nuala Bean</h4>
+            <span style="padding: 30px;">
+                The AI will respond by default based on previous messages. Choose ‘customize responses’ if you want control what to respond.
+            </span>
+
+            <a href="#!" class="button">Let the AI respond</a>
+
+            <a href="#!" class="button" style="background:grey;">Customize responses</a>
+
+            <div id="ifcustomize" style="margin-top:30px;">
+                <label for="received">If message received contains:</label>
+                <input type="text" id="received">
+                <label for="sent">Respond with:</label>
+                <input type="text" id="sent">
+
+                <div id="customized" style="margin-top:30px;">
+                    <ul>
+                        <li>To: blablablablal Respond with: sls... <span style="margin-left:10px;font-weight:bold;">X</span></li>
+                        <li>To: blablablablal Respond with: sls... <span style="margin-left:10px;font-weight:bold;">X</span></li>
+                        <li>To: blablablablal Respond with: sls... <span style="margin-left:10px;font-weight:bold;">X</span></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </main>
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>

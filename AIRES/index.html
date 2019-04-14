@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" href="assets/milligram.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>AIRES</title>
+    </head>
+    <body>
+
+        <nav>
+            <h4>Added contacts</h4>
+        </nav>
+
+        <main>
+
+            <div style="display:none;" id="ifnone">
+                <span style="margin-top:20%;">No contacts selected.</span>
+                <a href="add-contacts.html" class="button" style="margin-top:30%;">Add contacts</a>
+            </div>
+
+            <ul id="else">
+                <li>
+                    <label>
+                        <input type="checkbox" name="Nuala Bean" id="0" checked="checked">
+                        <span><a href="edit-contact.html">Nuala Bean</a></span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="Nuala Bean" id="0" checked="checked">
+                        <span><a href="edit-contact.html">Ivy-Rose Hill</a></span>
+                    </label>
+                </li>
+                <li style="background:#C4C4C4;">
+                    <a href="add-contacts.html" ><span style="color:#212121;font-weight:bold;">Add new contacts</span></a>
+                </li>
+            </ul>
+
+        </main>
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
